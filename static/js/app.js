@@ -1,4 +1,4 @@
-const dataset = d3.json("../data/samples.json");
+const dataset = d3.json("data/samples.json");
 
 let dropDown = d3.select("#selDataset");
 dropDown.on("change", handleChange);
