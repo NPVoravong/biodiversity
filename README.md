@@ -1,14 +1,14 @@
 # Prompt
 Create a interactive dashboard to explore the dataset that catalogs the microbes that colonize human navels.
 
-# Process
-
-### Dependencies
+# Dependencies
 - Javascript
 - D3
 - Plotly
 - HTML
 - Bootstrap
+
+# Process
 
 1. Intial Setup
 
@@ -38,11 +38,15 @@ Create a interactive dashboard to explore the dataset that catalogs the microbes
     
 
 6. Bubble Plot
-7. Interactvity  
-    Each component on the dashboard uses the variable i. When the change event for the drop down is triggered the i variable is replaced with the subject's id number. This           change event also triggers the various functions that build the plots and demographic panel. The id is connected to the dropdown by reading the current value of the dropdown as such
-    ```
-    let id = dropDown.property("value");
-    ```
+7. Interactivity  
+    Each component on the dashboard uses the variable i. When the change event for the drop down menu is triggered the i variable is replaced with the subject's id number. To generate the id number the `.property("value")` function is used. It reads the value data from the list that was dynamically generated from the JSON file.
+    
+Nested within custom `handleChange() ` function is another function `buildPlots(id)`. 
+    
+To see the dashboard in action visit this link [Biodiversity Dashboard](https://npvoravong.github.io/biodiversity/)
+    
+    
+   
 
 
 
