@@ -50,7 +50,8 @@ Create a interactive dashboard to explore the dataset that catalogs the microbes
       .attr("value", d => d);
     ```
     
-4. Bar Plot
+4. Bar Plot  
+
     The bar plot will show the count for each OTU or Operatinal Taxonomic Unit. Each person in study will have different OTUs.
     
 
