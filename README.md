@@ -5,7 +5,7 @@ Create an interactive dashboard to explore the dataset that catalogs the microbe
 - Javascript
 - D3
 - Plotly
-- HTML
+- HTML5
 - Bootstrap
 
 # Process
